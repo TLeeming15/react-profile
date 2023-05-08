@@ -1,0 +1,21 @@
+#menu {
+  text-align: right;
+  background-color: #3933eb;
+  padding:20px 0;
+}
+
+#menu  a {
+  text-align: right;
+  margin-right: 20px;
+  text-decoration: none;
+  color:white;
+  transition: color 600ms ease;
+}
+
+#menu a:hover {
+  color: rgb(162, 29, 196);
+}
+
+#page {
+  text-align: center;
+}

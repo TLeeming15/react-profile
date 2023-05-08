@@ -1,0 +1,28 @@
+body {
+    background-color: #caebf2;
+}
+#hero {
+    text-align:center;
+    background: url("https://tleeming15.github.io/my-portfolio/assets/images/hero-desk.jpeg");
+    background-size: cover;
+    height: 400px;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: white;
+}
+#hero img {
+    width:125px;
+    height:125px;
+    border-radius: 50%;
+}
+#hero h1 {
+    margin: 10px 0;
+}
+#bio h2 {
+    margin: 10px 0;
+    text-align:center;
+}
+#bio {
+    padding:5px;
+}
