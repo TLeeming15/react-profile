@@ -54,7 +54,7 @@ function App() {
             changePage("my-work")
           }}
         >
-          My Work
+          Portfolio
         </a>
         <a
           className="App-link"
@@ -65,6 +65,16 @@ function App() {
           }}
         >
           Contact Me
+        </a>
+        <a
+          className="App-link"
+          href="#"
+          rel="noopener noreferrer"
+          onClick={()=>{
+            changePage("resume")
+          }}
+        >
+          Resume
         </a>
         </nav>
       </header>

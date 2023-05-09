@@ -10,26 +10,32 @@ return (
 
             <article className="card first">
                 <h3>Trivia Application</h3>
-                <img alt="project" src="https://tleeming15.github.io/my-portfolio/assets/images/trivia-app.png"/>
+                <img alt="project" src="assets/images/5minute-triva.png"/>
             </article>
 
             <article className="card">
-                <h3>Skills Matcher App</h3>
-                <img alt="project" src="https://tleeming15.github.io/my-portfolio/assets/images/homepage.png"/>
+                <h3>Skills Match Application</h3>
+                <img alt="project" src="assets/images/skills-match.png"/>
             </article>
 
             <article className="card">
-                <h3>Horiseon Refactor</h3>
-                <img alt="project" src="https://tleeming15.github.io/my-portfolio/assets/images/project-1.jpeg"/>
+                <h3>Regex Gist</h3>
+                <img alt="project" src="assets/images/regex-gist.png"/>
             </article>
 
             <article className="card">
-                <h3>Project 4</h3>
-                <img alt="project" src="https://tleeming15.github.io/my-portfolio/assets/images/project-4.jpg"/>
+                <h3>README Generator</h3>
+                <img alt="project" src="assets/images/readme-generator.png"/>
             </article>
+
             <article className="card">
-                <h3>Project 5</h3>
-                <img alt="project" src="https://tleeming15.github.io/my-portfolio/assets/images/project-5.jpg"/>
+                <h3>Team Profile Generator</h3>
+                <img alt="project" src="assets/images/team-profile.png"/>
+            </article>
+
+            <article className="card">
+                <h3>Password Generator</h3>
+                <img alt="project" src="assets/images/password-generator.png"/>
             </article>
            
         </main>
