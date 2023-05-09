@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import "./Projects.css"
 
-function Projects() {reac
+function Projects() {
 return (
 <div id="projects">
         <h2>Projects</h2>
@@ -14,7 +14,7 @@ return (
                <img alt="project" src="https://tleeming15.github.io/my-portfolio/assets/images/trivia-app.png"/>
                </a>
                <a href="https://github.com/NileshPatel83/Trivia-Games">
-               <img className="github" src = "https://tleeming15.github.io/my-portfolio/assets/images/github-icon.png"/><p>View Github Repo here</p>
+                <p>View Github Repo here</p>
                 </a>
             </article>
 

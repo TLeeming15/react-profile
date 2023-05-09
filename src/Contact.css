@@ -1,10 +1,12 @@
 body {
     background-color: #89cff0;
+    color:#1d2d5c;
 }
 
 form{
     width: 250px;
-    margin: 0 auto
+    margin: 0 auto;
+    color:#1d2d5c;
 }
 
 form input[type="submit"] {
