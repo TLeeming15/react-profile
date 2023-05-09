@@ -81,8 +81,34 @@ function App() {
       <main id='page'>
         {renderPage(page)}
       </main>
+      <div id="footer">
+        <a
+        className="footer"
+        href= "https://github.com/TLeeming15"
+        >
+          <img src = "https://tleeming15.github.io/my-portfolio/assets/images/github-icon.png"/>
+          Github
+        </a>
+
+        <a
+        className="footer"
+        href= "https://twitter.com/TylerLeeming"
+        >
+           <img src = "https://tleeming15.github.io/my-portfolio/assets/images/twitter-icon.png"/>
+          Twitter
+        </a>
+
+        <a
+        className="footer"
+        href= "https://www.linkedin.com/in/tyler-leeming-890226276/"
+        >
+           <img src = "https://tleeming15.github.io/my-portfolio/assets/images/linkedin-icon.png"/>
+          LinkedIn
+        </a>
+      </div>
     </div>
   );
+  
 }
 
 export default App;

@@ -1,5 +1,5 @@
 body {
-    background-color: #caebf2;
+    background-color: #89cff0;
 }
 #hero {
     text-align:center;
@@ -12,8 +12,8 @@ body {
     color: white;
 }
 #hero img {
-    width:125px;
-    height:125px;
+    width:200px;
+    height:200px;
     border-radius: 50%;
 }
 #hero h1 {

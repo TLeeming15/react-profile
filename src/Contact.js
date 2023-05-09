@@ -8,7 +8,7 @@ return (
     <h2 id="contact-me">Contact Me Here</h2>
 <form action="#">
     <label for="email">
-        <h4><img src="assets/images/email-icon.png"/>Email</h4>
+        <h4><img src="https://tleeming15.github.io/my-portfolio/assets/images/email-icon.png"/>Email</h4>
         <input type="email" id="email" placeholder="Enter your Email"/>
     </label>
     <label for="message">

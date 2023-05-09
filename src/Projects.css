@@ -1,9 +1,13 @@
 body {
-    background-color: #caebf2;
+    background-color: #89cff0;
 }
 
 #projects{
     text-align: center;
+}
+
+#projects h2{
+    color:#1d2d5c;
 }
 
 #projects-cards {
@@ -13,7 +17,7 @@ body {
     gap: 20px;
 }
 #projects-cards .card img {
-    max-width: 40vw;
+    max-width: 38vw;
     max-height: 30vw;
 }
 #projects-cards .card {
@@ -26,5 +30,19 @@ body {
 }
 .card{
     color: white;
-    background-color: #3933eb;
+    background-color: #1d2d5c;
 }
+
+.card a{
+    text-decoration: none;
+    color:white;
+}
+.card a:hover {
+    color: #89cff0 ;
+  }
+
+.github{
+    max-width: 40px;
+    max-height: 40px;
+}
+

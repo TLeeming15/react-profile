@@ -1,6 +1,6 @@
 #menu {
   text-align: right;
-  background-color: #3933eb;
+  background-color: #1d2d5c;
   padding:20px 0;
 }
 
@@ -13,7 +13,31 @@
 }
 
 #menu a:hover {
-  color: rgb(162, 29, 196);
+  color: #89cff0 ;
+}
+
+#footer {
+  text-align: right;
+  background-color: #1d2d5c;
+  padding:20px 0;
+}
+
+#footer  a {
+  text-align: right;
+  margin-right: 20px;
+  text-decoration: none;
+  color:white;
+  transition: color 600ms ease;
+}
+
+#footer img {
+  justify-content: right;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+#footer a:hover {
+  color: #89cff0;
 }
 
 #page {
