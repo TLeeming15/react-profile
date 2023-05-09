@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import "./Projects.css"
 
-function Projects() {
+function Projects() {reac
 return (
 <div id="projects">
         <h2>Projects</h2>
