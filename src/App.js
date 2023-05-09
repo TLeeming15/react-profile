@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
+import Contact from './Contact'
 
 import { useState } from 'react';
 
@@ -27,7 +28,7 @@ function App() {
       case "my-work":
         return <Projects></Projects>;
       case "contact-me":
-        return "My contact page coming soon!"
+        return <Contact></Contact>
     }
   }
 
