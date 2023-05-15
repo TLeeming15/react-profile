@@ -16,10 +16,18 @@
   color: #89cff0 ;
 }
 
+#menu a.active {
+  color: #89cff0;
+}
+
 #footer {
   text-align: right;
   background-color: #1d2d5c;
   padding:20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:100vw;
 }
 
 #footer  a {

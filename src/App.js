@@ -3,6 +3,7 @@ import './App.css'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
 import Contact from './Contact'
+import Resume from './Resume'
 
 import { useState } from 'react';
 
@@ -29,6 +30,8 @@ function App() {
         return <Projects></Projects>;
       case "contact-me":
         return <Contact></Contact>
+      case "resume":
+        return <Resume></Resume>
     }
   }
 
@@ -37,27 +40,27 @@ function App() {
       <header className="App-header">
         <nav id='menu'>
         <a
-          className="App-link"
+          className={page == "about-me"?"active":""}
           href="#"
           rel="noopener noreferrer"
           onClick={()=>{
             changePage("about-me")
           }}
           >
-          About Me
+          About Me 
         </a>
         <a
-          className="App-link"
+          className={page == "my-work"?"active":""}
           href="#"
           rel="noopener noreferrer"
           onClick={()=>{
             changePage("my-work")
           }}
         >
-          Portfolio
+          Portfolio 
         </a>
         <a
-          className="App-link"
+          className={page == "contact-me"?"active":""}
           href="#"
           rel="noopener noreferrer"
           onClick={()=>{
@@ -67,7 +70,7 @@ function App() {
           Contact Me
         </a>
         <a
-          className="App-link"
+          className={page == "resume"?"active":""}
           href="#"
           rel="noopener noreferrer"
           onClick={()=>{

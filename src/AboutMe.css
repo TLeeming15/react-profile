@@ -5,6 +5,7 @@ body {
     text-align:center;
     background: url("https://tleeming15.github.io/my-portfolio/assets/images/hero-desk.jpeg");
     background-size: cover;
+    background-position: center center;
     height: 400px;
     display:flex;
     flex-flow: column nowrap;
