@@ -1,11 +1,15 @@
 import { useState } from 'react';
 import "./Resume.css"
+import resumePath from "./documents/web-dev-resume";
 
 function Resume() {
 return (
     <section>
     <div className= "resume">
         <h2>Resume</h2>
+        <div className='resume-link'>
+          <a href={resumePath} target="_blank">Download Here</a>
+        </div> 
     </div>
     <div>
     <h2>Front-End Proficiencies</h2>
