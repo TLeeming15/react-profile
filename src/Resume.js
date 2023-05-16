@@ -1,6 +1,6 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import "./Resume.css"
-import resumePath from "./documents/web-dev-resume";
+import resumePath from "/Users/tylerleeming/Desktop/bootcamp/react-profile/src/documents/web-dev-resume.pdf";
 
 function Resume() {
 return (
@@ -11,7 +11,7 @@ return (
           <a href={resumePath} target="_blank">Download Here</a>
         </div> 
     </div>
-    <div>
+    <div className= "proficiencies">
     <h2>Front-End Proficiencies</h2>
     <ul>
     <li>HTML</li>

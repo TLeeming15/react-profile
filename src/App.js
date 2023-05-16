@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
@@ -8,18 +8,7 @@ import Resume from './Resume'
 import { useState } from 'react';
 
 function App() {
-  /**
-   * Equivalent:
-   * 
-   * let page = "about-me";
-   * 
-   * // changePage("my-work");
-   * function changePage(newPage) {
-   *  this.page = newPage;
-   *  refreshTheLayout();
-   * }
-   * 
-   */
+  
   const [page, changePage] = useState("about-me");
 
   function renderPage(page) {
@@ -39,8 +28,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav id='menu'>
+          <h1 className="name">Tyler Leeming</h1>
         <a
-          className={page == "about-me"?"active":""}
+          className={page === "about-me"?"active":""}
           href="#"
           rel="noopener noreferrer"
           onClick={()=>{
@@ -50,7 +40,7 @@ function App() {
           About Me 
         </a>
         <a
-          className={page == "my-work"?"active":""}
+          className={page === "my-work"?"active":""}
           href="#"
           rel="noopener noreferrer"
           onClick={()=>{
@@ -60,7 +50,7 @@ function App() {
           Portfolio 
         </a>
         <a
-          className={page == "contact-me"?"active":""}
+          className={page === "contact-me"?"active":""}
           href="#"
           rel="noopener noreferrer"
           onClick={()=>{
@@ -70,7 +60,7 @@ function App() {
           Contact Me
         </a>
         <a
-          className={page == "resume"?"active":""}
+          className={page === "resume"?"active":""}
           href="#"
           rel="noopener noreferrer"
           onClick={()=>{
@@ -89,7 +79,7 @@ function App() {
         className="footer"
         href= "https://github.com/TLeeming15"
         >
-          <img src = "https://tleeming15.github.io/my-portfolio/assets/images/github-icon.png"/>
+          <img src = "https://tleeming15.github.io/my-portfolio/assets/images/github-icon.png" alt="Github logo"/>
           Github
         </a>
 
@@ -97,7 +87,7 @@ function App() {
         className="footer"
         href= "https://twitter.com/TylerLeeming"
         >
-           <img src = "https://tleeming15.github.io/my-portfolio/assets/images/twitter-icon.png"/>
+           <img src = "https://tleeming15.github.io/my-portfolio/assets/images/twitter-icon.png" alt="Twitter logo"/>
           Twitter
         </a>
 
@@ -105,7 +95,7 @@ function App() {
         className="footer"
         href= "https://www.linkedin.com/in/tyler-leeming-890226276/"
         >
-           <img src = "https://tleeming15.github.io/my-portfolio/assets/images/linkedin-icon.png"/>
+           <img src = "https://tleeming15.github.io/my-portfolio/assets/images/linkedin-icon.png" alt="LinkedIn logo"/>
           LinkedIn
         </a>
       </div>

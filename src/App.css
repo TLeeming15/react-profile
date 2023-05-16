@@ -20,6 +20,11 @@
   color: #89cff0;
 }
 
+.name{
+  color: white;
+  text-align: left;
+}
+
 #footer {
   text-align: right;
   background-color: #1d2d5c;
