@@ -48,17 +48,14 @@ As a web-developer this website acts as a showcase of my skills and abilities wh
 
 The following images show the completed website. You can visit here:  
 
-<img src=".png" alt="Image of the landing page"/>
+<img src="./assets/images/about-me.png" alt="Image of the landing page"/>
 
-<img src=".png" alt=""/>
+<img src="./assets/images/portfolio.png" alt="Image of projects grid"/>
 
-<img src=".png" alt=""/>
+<img src="./assets/images/contact-me.png" alt="Image of contact form page"/>
 
-<img src=".png" alt=""/>
+<img src="./assets/images/resume.png" alt="Image of resume and proficencies page"/>
 
-<img src=".png" alt=""/>
-
-<img src=".png" alt=""/>
 
 ## Installation
 
