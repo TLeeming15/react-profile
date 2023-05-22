@@ -46,7 +46,7 @@ As a web-developer this website acts as a showcase of my skills and abilities wh
 ## Usage
 
 
-The following images show the completed website. You can visit here:  
+The following images show the completed website. You can visit here: https://tleeming15.github.io/react-profile/  
 
 <img src="./assets/images/about-me.png" alt="Image of the landing page"/>
 
