@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-profile/static/css/main.c3dbe767.css",
+    "main.js": "/react-profile/static/js/main.37a2b075.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-profile/static/js/787.a2cb61a6.chunk.js",
+    "static/media/web-dev-resume.pdf": "/react-profile/static/media/web-dev-resume.bb84c594e933ab32829c.pdf",
+    "index.html": "/react-profile/index.html",
+    "main.c3dbe767.css.map": "/react-profile/static/css/main.c3dbe767.css.map",
+    "main.37a2b075.js.map": "/react-profile/static/js/main.37a2b075.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-profile/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3dbe767.css",
+    "static/js/main.37a2b075.js"
+  ]
+}
