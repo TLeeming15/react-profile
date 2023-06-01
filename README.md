@@ -48,13 +48,13 @@ As a web-developer this website acts as a showcase of my skills and abilities wh
 
 The following images show the completed website. You can visit here: https://tleeming15.github.io/react-profile/  
 
-<img src="./assets/images/about-me.png" alt="Image of the landing page"/>
+<img src="./src/assets/images/home-page.png" alt="Image of the landing page"/>
 
-<img src="./assets/images/portfolio.png" alt="Image of projects grid"/>
+<img src="./src/assets/images/portfolio.png" alt="Image of projects grid"/>
 
-<img src="./assets/images/contact-me.png" alt="Image of contact form page"/>
+<img src="./src/assets/images/contact-me.png" alt="Image of contact form page"/>
 
-<img src="./assets/images/resume.png" alt="Image of resume and proficencies page"/>
+<img src="./src/assets/images/resume.png" alt="Image of resume and proficencies page"/>
 
 
 ## Installation
